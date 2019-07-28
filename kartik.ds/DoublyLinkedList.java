@@ -1,4 +1,4 @@
-//package kartik.ds;
+package kartik.ds;
 public class DoublyLinkedList<E> 
 {
 
