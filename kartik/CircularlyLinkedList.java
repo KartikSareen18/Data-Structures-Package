@@ -1,4 +1,4 @@
-package kartik.ds;
+package kartik;
 public class CircularlyLinkedList<E> 
 {
   //---------------- nested Node class ----------------

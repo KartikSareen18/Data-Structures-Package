@@ -1,4 +1,4 @@
-package kartik.ds;
+package kartik;
 public class SinglyLinkedList<E> 
 {
   //---------------- nested Node class ----------------
@@ -243,6 +243,46 @@ public class SinglyLinkedList<E>
   
 	// public void merge(SinglyLinkedList<E> b)
 	// {
+		// Node<E> ptr1=head,ptr2=b.head,prev1=null;
+        // while(ptr1!=null && ptr2!=null)
+        // {
+            // if(ptr1.getElement()<=ptr2.getElement())
+            // {
+                // prev1=ptr1;
+                // ptr1=ptr1.getNext();
+            // }
+            // else
+            // {
+                // if(prev1==null)
+                // {
+                    // Node<E> a=ptr2;
+                    // ptr2=ptr2.getNext();
+                    // a.setNext(ptr1);
+                    // prev1=a;
+                    // head=a;
+                // }
+                // else
+                // {
+                    // Node<E> a=ptr2;
+                    // ptr2=ptr2.getNext();
+                    // a.setNext(ptr1);
+                    // prev1.setNext(a);
+                    // prev1=a;
+                // }
+            // }
+        // }
+        // if(ptr2!=null)
+        // {
+            // prev1.setNext(ptr2);
+        // }
+	// }
+		
+		
+		
+		
+		
+		
+		
 		// Node<E> ptr1=head;
 		// Node<E> ptr2=b.head;
 		// Node<E> prev1=null;
@@ -275,6 +315,8 @@ public class SinglyLinkedList<E>
 			// prev1.setNext(ptr2);
 		// }
 	// }
+	
+	 
 	
 	
   /**
@@ -317,8 +359,8 @@ public class SinglyLinkedList<E>
 	  // a.removeFirst();
 	  // System.out.println(a.toString());
 	  // a.removeValueAt(2);
-	  // //System.out.println(b.toString());
-	  // //a.merge(b);
+	  // System.out.println(b.toString());
+	  // a.merge(b);
 	  // System.out.println(a.toString());
 	  // System.out.println(a.size());
 	  
